@@ -63,15 +63,14 @@ export default function Login() {
 
   return (
 <div  >
-<div class="split left">
   <div class="centered"> 
   <div class="container">
   <div class="top"><strong><h1>CGI Connect</h1></strong></div>
   <img className="mg" src={bg1} />
 </div>
 </div>
-</div>
-<div class="split right">
+
+
   <div class="centered">
                  <div >
 
@@ -104,7 +103,7 @@ export default function Login() {
         </div>
     
 
-      </div>
+      
 </div>
 </div>      </div>
 )
