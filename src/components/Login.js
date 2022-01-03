@@ -67,8 +67,7 @@ export default function Login() {
   <div class="centered"> 
   <div class="container">
   <div class="top"><strong><h1>CGI Connect</h1></strong></div>
-  <img className="mg" src={bg1} width={800}
-  height={  920} />
+  <img className="mg" src={bg1} />
 </div>
 </div>
 </div>
