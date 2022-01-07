@@ -4,7 +4,7 @@ import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
 import logo from './img/1.png';
 import SendIcon from '@mui/icons-material/Send';
-import './Login.css'
+
 import Buttons from '@mui/material/Button';
 import bg1  from './img/e7.jpg'
 export default function ForgotPassword() {
