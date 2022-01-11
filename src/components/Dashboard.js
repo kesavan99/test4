@@ -85,7 +85,7 @@ height:'auto'
 
 const openedMixin = (theme) => ({
   width: drawerWidth,
-bgcolor="primary.main"  ,
+
   transition: theme.transitions.create('width', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.enteringScreen,
@@ -95,7 +95,7 @@ bgcolor="primary.main"  ,
 });
 
 const closedMixin = (theme) => ({
-  bgcolor="primary.main",
+  
   transition: theme.transitions.create('width', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -306,7 +306,7 @@ export default function Dashboard() {
   
   
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <DrawerHeader />
+          <DrawerHeader bgcolor="primary.main" />
   
                 </Box>
       </Box>
