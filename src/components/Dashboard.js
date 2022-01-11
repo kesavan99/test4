@@ -205,7 +205,7 @@ export default function Dashboard() {
     <>
    <div>
       
-      <Box  height="100vh" bgcolor="primary.main" sx={{ display: 'fixed' }}>
+      <Box sx={{ display: 'fixed' }}>
         <CssBaseline />
         <AppBar position="fixed" open={open} className={classes.root} >
        
@@ -219,6 +219,7 @@ export default function Dashboard() {
               onClick={handleDrawerOpen}
               edge="start"
               sx={{
+height="100vh",
                 marginRight: '36px',
                 ...(open && { display: 'none' }),
               }}
@@ -262,7 +263,7 @@ export default function Dashboard() {
          
           </AppBar>    
         <Drawer variant="permanent" className={classes.sdbar} open={open}>
-          <DrawerHeader>
+          <DrawerHeader bgcolor="primary.main"  >
             <IconButton onClick={handleDrawerClose}>
               {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
             </IconButton>
