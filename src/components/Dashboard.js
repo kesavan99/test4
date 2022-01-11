@@ -205,7 +205,7 @@ export default function Dashboard() {
     <>
    <div>
       
-      <Box  height="100vh" sx={{ display: 'fixed' }}>
+      <Box  height="100vh" bgcolor="primary.main" sx={{ display: 'fixed' }}>
         <CssBaseline />
         <AppBar position="fixed" open={open} className={classes.root} >
        
