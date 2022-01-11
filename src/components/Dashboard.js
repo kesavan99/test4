@@ -85,6 +85,7 @@ height:'auto'
 
 const openedMixin = (theme) => ({
   width: drawerWidth,
+bgcolor="primary.main"  ,
   transition: theme.transitions.create('width', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.enteringScreen,
@@ -94,7 +95,7 @@ const openedMixin = (theme) => ({
 });
 
 const closedMixin = (theme) => ({
-  
+  bgcolor="primary.main",
   transition: theme.transitions.create('width', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -263,7 +264,7 @@ export default function Dashboard() {
          
           </AppBar>    
         <Drawer variant="permanent" className={classes.sdbar} open={open}>
-          <DrawerHeader bgcolor="primary.main"  >
+          <DrawerHeader>
             <IconButton onClick={handleDrawerClose}>
               {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
             </IconButton>
