@@ -219,7 +219,7 @@ export default function Dashboard() {
               onClick={handleDrawerOpen}
               edge="start"
               sx={{
-height="100vh",
+
                 marginRight: '36px',
                 ...(open && { display: 'none' }),
               }}
